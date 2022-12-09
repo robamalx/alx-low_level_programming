@@ -1,8 +1,13 @@
-#include <stdio.h>
+#include <studio.h>
 /**
- *  main - main block
- *  Return: o
- */
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
 {
