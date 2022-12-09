@@ -1,5 +1,9 @@
 #include <studio.h>
 /**
+ * main - main block
+ * retun: 0
+ */
+/*
  *
  *  * main - Entry point
  *
