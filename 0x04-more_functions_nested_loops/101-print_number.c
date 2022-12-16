@@ -7,7 +7,7 @@
  */
 void print_number(int n)
 {
-	unsigned int n, d, count;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
@@ -19,7 +19,7 @@ void print_number(int n)
 		m = n;
 	}
 
-	d = n;
+	d = m;
 	count = 1;
 
 	while (d > 9)
@@ -30,6 +30,6 @@ void print_number(int n)
 
 	for (; count >= 1; count /= 10)
 	{
-		_putchar(((n / count) % 10) + 48);
+		_putchar(((m / count) % 10) + 48);
 	}
 }
