@@ -2,8 +2,7 @@
 
 /**
  * rev_string - prints a string in reverse
- * @s: input
- * Return: Always 0
+ * @s: holi
  */
 void rev_string(char *s)
 {
@@ -11,6 +10,7 @@ void rev_string(char *s)
 	int j;
 	int temp;
 	int length;
+
 	while (s[i] != 0)
 	{
 		i++;
