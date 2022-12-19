@@ -7,8 +7,6 @@
  */
 int main(void)
 {
-	int s;
-
 	char s[10] = "My School";
 
 	printf("s: %s\n", s);
