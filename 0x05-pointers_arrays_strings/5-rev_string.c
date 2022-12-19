@@ -1,29 +1,18 @@
 #include "main.h"
 
 /**
- * rev_string - prints a string in reverse
+ * main - prints a string in reverse
  * @s: input
- * Return: string in reverse
+ * Return: Always 0
  */
-void rev_string(char *s)
+int main(void)
 {
-	int i, k, tmp, len;
+	int s;
 
-	i = 0;
+	char s[10] = "My School";
 
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	k = 0;
-	len = i;
-	i--;
-	while (k < len / 2)
-	{
-		tmp = s[k];
-		s[k] = s[i];
-		s[i] = tmp;
-		i++;
-		k++;
-	}
+	printf("s: %s\n", s);
+	rev_string(s);
+	printf("s: %s\n", s);
+	return (0);
 }
