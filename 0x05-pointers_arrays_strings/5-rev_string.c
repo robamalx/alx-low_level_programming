@@ -5,12 +5,26 @@
  * @s: input
  * Return: Always 0
  */
-int main(void)
+void rev_string(char *s)
 {
-	char s[10] = "My School";
+	int i;
+	int j;
+	int temp;
+	int length;
+	while (s[i] != 0)
+	{
+		i++;
+	}
+	length = i;
+	i = 0;
+	j = length;
 
-	printf("s: %s\n", s);
-	rev_string(s);
-	printf("s: %s\n", s);
-	return (0);
+	while (i < j)
+	{
+		temp = s[i];
+		s[i] = s[j];
+		s[j] = temp;
+		i++;
+		j++;
+	}
 }
