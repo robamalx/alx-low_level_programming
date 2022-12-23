@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * add_strings - Adds the numbers stored in two strings.
  * @n1: The string containing the first number to be added.
